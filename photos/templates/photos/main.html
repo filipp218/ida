@@ -3,6 +3,10 @@
 <head>
 </head>
 <body>
-
+    <h1>Список изображений</h1>
+    {% for i in photos%}
+      <p><a href="/{{i.url}}">{{i.image}}</a></p>
+    {%endfor%}
+    <p><a href="/add">Добавить изображение</p>
 </body>
 </html>

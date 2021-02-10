@@ -1,8 +1,20 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 <head>
 </head>
 <body>
-
+  <h1>Новое изображение</h1>
+  <p><a href="/">Назад к списку</p>
+  <br>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <br>
+        <br>
+        {{form.image}}
+        <br>
+        <br>
+        <button type= "submit">Отправить</button>
+    </form>
 </body>
 </html>
