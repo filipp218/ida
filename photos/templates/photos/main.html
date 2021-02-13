@@ -1,12 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-</head>
-<body>
+{% extends 'photos/base.html' %}
+ {% load static %}
+
+
+{% block title %}
+  <title>Изображения</title>
+{% endblock %}
+
+
+{% block content %}
     <h1>Список изображений</h1>
+    <a>{{e}}</a>
     {% for i in photos%}
-      <p><a href="/{{i.url}}/cut">{{i.image}}</a></p>
+      <p><a href="/{{i.slug}}">{{i.image}}</a></p>
     {%endfor%}
     <p><a href="/add">Добавить изображение</p>
-</body>
-</html>
+{% endblock %}

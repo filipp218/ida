@@ -1,0 +1,13 @@
+{% extends 'photos/base.html' %}
+ {% load static %}
+
+
+{% block title %}
+  <title>Ошибочка</title>
+{% endblock %}
+
+{% block content %}
+  <h1>Упс, скачать изображение по вашей ссылке не получилось</h1>
+  <img src="{% get_media_prefix %}error.jpg">
+  <p><a href="/add">Попробовать ещё раз</p>
+{% endblock %}

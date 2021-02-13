@@ -1,25 +1,27 @@
-<!DOCTYPE html>
-{% load static %}
-<html lang="en">
-<head>
-</head>
-<body>
+{% extends 'photos/base.html' %}
+ {% load static %}
+
+{% block title %}
+   <title>Редактирование</title>
+{% endblock %}
+
+{% block content %}
+  <p><a href="/">Назад к списку</a></p>
   <h1>{{photo.image}}</h1>
-    <form method="post" enctype="multipart/form-data">
-        {% csrf_token %}
-        <br>
-        <a>Ширина</a>
-        <br>
-        <input type="text" name="width" value="{{width}}">
-        <br>
-        <br>
-        <a>Высота</a>
-        <br>
-        <input type="text" name="height" value="{{height}}">
-        <br>
-        <br>
-        <button type= "submit">Отправить</button>
-    </form>
-    <img src="{% get_media_prefix %}{{photo.image}}">
-</body>
-</html>
+  <form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <br>
+    <a>Ширина</a>
+    <br>
+    {{form.width}}
+    <br>
+    <br>
+    <a>Высота</a>
+    <br>
+    {{form.height}}
+    <br>
+    <br>
+    <button type= "submit">Отправить</button>
+  </form>
+  <img src="{% get_media_prefix %}{{photo.image}}">
+{% endblock %}
