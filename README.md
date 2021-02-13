@@ -7,7 +7,9 @@
 - Установите виртуальное окружение 
 
 - Склонируйте проект в вашу директорию
-
+```
+git clone https://github.com/filipp218/ida.git
+```
 - Установите все зависимосоти из файла requirements с помощью команды 
 ```
 pip install -r requirements.txt
