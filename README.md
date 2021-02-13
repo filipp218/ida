@@ -9,16 +9,16 @@
 - Склонируйте проект в вашу директорию
 
 - Установите все зависимосоти из файла requirements с помощью команды 
-1.pip install -r requirements.txt
-
-- Скачайте sqlite3
-
+```
+pip install -r requirements.txt
+```
 - Сделайте миграции с помощью команд 
 ```
 python manage.py makemigrations photos
 python manage.py migrate
 ```
 - Запустите сервер с помощью команды
-1. python manage.py runserver
-
+```
+python manage.py runserver
+```
 - Переходи в бразуер и пользуйтесь!)
