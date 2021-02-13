@@ -14,9 +14,10 @@
 - Скачайте sqlite3
 
 - Сделайте миграции с помощью команд 
-1. python manage.py makemigrations photos
-2. python manage.py migrate
-
+```
+python manage.py makemigrations photos
+python manage.py migrate
+```
 - Запустите сервер с помощью команды
 1. python manage.py runserver
 
