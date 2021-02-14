@@ -32,4 +32,4 @@ python manage.py runserver
 filipp218@gmail.com
 ```
 
-![ScreenShot](https://raw.https://github.com/filipp218/ida/blob/main/media/error.jpg)
+![ScreenShot](https://github.com/filipp218/ida/blob/main/media/error.jpg)
