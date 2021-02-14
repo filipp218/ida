@@ -32,4 +32,11 @@ python manage.py runserver
 filipp218@gmail.com
 ```
 
-![ScreenShot](https://github.com/filipp218/ida/blob/main/media/error.jpg)
+![ScreenShot](https://github.com/filipp218/ida/blob/main/screenshoots/start.JPG)
+![ScreenShot](https://github.com/filipp218/ida/blob/main/screenshoots/add.JPG)
+![ScreenShot](https://github.com/filipp218/ida/blob/main/screenshoots/no.JPG)
+![ScreenShot](https://github.com/filipp218/ida/blob/main/screenshoots/two.JPG)
+![ScreenShot](https://github.com/filipp218/ida/blob/main/screenshoots/standart.JPG)
+![ScreenShot](https://github.com/filipp218/ida/blob/main/screenshoots/cut.JPG)
+![ScreenShot](https://github.com/filipp218/ida/blob/main/screenshoots/main.JPG)
+![ScreenShot](https://github.com/filipp218/ida/blob/main/screenshoots/admin.JPG)
